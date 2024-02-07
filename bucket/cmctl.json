@@ -1,0 +1,18 @@
+{
+    "version": "1.13.3",
+    "description": "Easily manage your certificates on a Kubernetes cluster running cert-manager",
+    "homepage": "https://cert-manager.io",
+    "license": {
+        "identifier": "Apache-2.0",
+        "url": "https://github.com/cert-manager/cert-manager/blob/master/LICENSE"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cert-manager/cert-manager/releases/download/v1.13.3/cmctl-windows-amd64.zip",
+            "hash": "afb8fab0980273a8c1fe403c215b20ba5942cda520a6399639b25d4d5c0a2265"
+        }
+    },
+    "bin": [
+        "cmctl.exe"
+    ]
+}
