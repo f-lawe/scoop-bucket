@@ -7,18 +7,18 @@ Some usefull extra apps for [Scoop](https://scoop.sh), the Windows command-line 
 
 ## Manifest list
 
-| Name                                                  | Version | Description                                                                  |
-|-------------------------------------------------------|---------|------------------------------------------------------------------------------|
-| [cmctl](https://cert-manager.io/docs/reference/cmctl) | 1.13.3  |Easily manage your certificates on a Kubernetes cluster running cert-manager |
-| [oh-my-posh](https://ohmyposh.dev)                    | 19.8.3  | A prompt theme engine for any shell                                          |
+| Name                                                  | Description                                                                  |
+|-------------------------------------------------------|------------------------------------------------------------------------------|
+| [cmctl](https://cert-manager.io/docs/reference/cmctl) | Easily manage your certificates on a Kubernetes cluster running cert-manager |
+| [oh-my-posh](https://ohmyposh.dev)                    | A prompt theme engine for any shell                                          |
 
 ## How do I install these manifests?
 
 Run the following:
 
 ```pwsh
-scoop bucket add f-lawe https://github.com/f-lawe/scoop-bucket
-scoop install f-lawe/<manifestname>
+scoop bucket add flawe https://github.com/f-lawe/scoop-bucket
+scoop install flawe/<manifest>
 ```
 
 ## How do I contribute?
