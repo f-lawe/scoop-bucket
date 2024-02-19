@@ -1,47 +1,46 @@
 {
-  "version": "19.11.2",
-  "description": "A prompt theme engine for any shell",
-  "homepage": "https://ohmyposh.dev",
-  "license": {
-    "identifier": "MIT",
-    "url": "https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/COPYING"
-  },
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v19.11.2/install-amd64.exe",
-      "hash": "CB2D791AD16BA6A29DA43394AD7053111AF6CF852298C7126ECC5328A7227D9B"
+    "version": "19.11.3",
+    "description": "A prompt theme engine for any shell",
+    "homepage": "https://ohmyposh.dev",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/COPYING"
     },
-    "32bit": {
-      "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v19.11.2/install-386.exe",
-      "hash": "424367CB3F2DFE4C5B766552A0CCECF3499675B4A3685AAF42E76952D35C348D"
-    }
-  },
-  "installer": {
-    "args": [
-      "/CURRENTUSER",
-      "/VERYSILENT",
-      "/INSTALLER=scoop"
-    ]
-  },
-  "checkver": {
-    "github": "https://github.com/JanDeDobbeleer/oh-my-posh"
-  },
-  "post_install": [
-    "Write-Host 'Thanks for installing Oh My Posh.'",
-    "Write-Host 'Have a look at https://ohmyposh.dev for detailed instructions for your shell.'"
-  ],
-  "autoupdate": {
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v19.11.2/install-amd64.exe"
-      },
-      "32bit": {
-        "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v19.11.2/install-386.exe"
-      }
+        "64bit": {
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v19.11.2/install-amd64.exe",
+            "hash": "cb2d791ad16ba6a29da43394ad7053111af6cf852298c7126ecc5328a7227d9b"
+        },
+        "32bit": {
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v19.11.2/install-386.exe",
+            "hash": "424367cb3f2dfe4c5b766552a0ccecf3499675b4a3685aaf42e76952d35c348d"
+        }
     },
-    "hash": {
-      "url": "$url.sha256"
+    "installer": {
+        "args": [
+            "/CURRENTUSER",
+            "/VERYSILENT",
+            "/INSTALLER=scoop"
+        ]
+    },
+    "checkver": {
+        "github": "https://github.com/JanDeDobbeleer/oh-my-posh"
+    },
+    "post_install": [
+        "Write-Host 'Thanks for installing Oh My Posh.'",
+        "Write-Host 'Have a look at https://ohmyposh.dev for detailed instructions for your shell.'"
+    ],
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v19.11.2/install-amd64.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v19.11.2/install-386.exe"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
     }
-  }
 }
-
