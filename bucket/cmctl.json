@@ -1,31 +1,29 @@
 {
-  "version": "1.14.2",
-  "description": "Easily manage your certificates on a Kubernetes cluster running cert-manager",
-  "homepage": "https://cert-manager.io",
-  "license": {
-    "identifier": "Apache-2.0",
-    "url": "https://github.com/cert-manager/cert-manager/blob/master/LICENSE"
-  },
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/cert-manager/cert-manager/releases/download/v1.14.2/cmctl-windows-amd64.zip",
-      "hash": "08e36df282456af9cd2aebe27678f5b03c7ad47d14bd19a276bcbcf1c1b847a9"
-    }
-  },
-  "bin": [
-    "cmctl.exe"
-  ],
-  "checkver": {
-    "github": "https://github.com/cert-manager/cert-manager"
-  },
-  "autoupdate": {
-    "architecture": {
-      "64bit": {
-        "url": "https://github.com/cert-manager/cert-manager/releases/download/v1.14.2/cmctl-windows-amd64.zip"
-      }
+    "version": "1.14.3",
+    "description": "Easily manage your certificates on a Kubernetes cluster running cert-manager",
+    "homepage": "https://cert-manager.io",
+    "license": {
+        "identifier": "Apache-2.0",
+        "url": "https://github.com/cert-manager/cert-manager/blob/master/LICENSE"
     },
-    "hash": {
-      "url": "$url.sha256"
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cert-manager/cert-manager/releases/download/v1.14.2/cmctl-windows-amd64.zip",
+            "hash": "08e36df282456af9cd2aebe27678f5b03c7ad47d14bd19a276bcbcf1c1b847a9"
+        }
+    },
+    "bin": "cmctl.exe",
+    "checkver": {
+        "github": "https://github.com/cert-manager/cert-manager"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/cert-manager/cert-manager/releases/download/v1.14.2/cmctl-windows-amd64.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
     }
-  }
 }
