@@ -1,5 +1,5 @@
 {
-    "version": "1.14.3",
+    "version": "1.14.4",
     "description": "Easily manage your certificates on a Kubernetes cluster running cert-manager",
     "homepage": "https://cert-manager.io",
     "license": {
