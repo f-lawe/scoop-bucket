@@ -19,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/cert-manager/cert-manager/releases/download/v1.14.2/cmctl-windows-amd64.zip"
+                "url": "https://github.com/cert-manager/cert-manager/releases/download/v$version/cmctl-windows-amd64.zip"
             }
         },
         "hash": {
