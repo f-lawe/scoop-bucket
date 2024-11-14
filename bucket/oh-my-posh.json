@@ -1,5 +1,5 @@
 {
-    "version": "24.4.1",
+    "version": "24.5.0",
     "description": "A prompt theme engine for any shell",
     "homepage": "https://ohmyposh.dev",
     "license": {
@@ -8,16 +8,16 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v24.4.1/install-amd64.exe",
-            "hash": "337e09ac914b994675bfecf526f863f7cee1cf90a4c2e77abcecd866aa719a16"
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v24.5.0/install-amd64.exe",
+            "hash": "cd696274990e57db95b69af395e798d887751a0e4f8285f1c7ff8bf28a725e55"
         },
         "32bit": {
-            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v24.4.1/install-386.exe",
-            "hash": "2dfe1038c3d5c27b8aaf2154a9b2d9a50b815161e22883c4e992abb64debcc83"
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v24.5.0/install-386.exe",
+            "hash": "6cdf24117f53647fa86d99efc7a0581ee1b9713b6c811d0712a01d523c07117c"
         },
         "arm64": {
-            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v24.4.1/install-arm64.exe",
-            "hash": "d86ec717e746851870c97efd1a23da27b93ea872d66c5fc407706411016df172"
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v24.5.0/install-arm64.exe",
+            "hash": "4969aad100453c16b86a354a53f7089aed893ca83a90107de0dff6d1a311ed05"
         }
     },
     "installer": {
